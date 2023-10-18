@@ -40,13 +40,13 @@ To run the entire service locally, follow these steps:
 
 # Example Screenshots
 1. Login
-    - [login-screenshot](example/login.png)
+    ![login-screenshot](example/login.png)
 2. Register
-    - [register-screenshot](example/register.png)
+    ![register-screenshot](example/register.png)
 3. Home Page:
-    - [login-screenshot](example/home-page-employee-status.png)
+    ![login-screenshot](example/home-page-employee-status.png)
 4. Admin Employee
-    - [admin-employee](example/admin-employee.png)
+    ![admin-employee](example/admin-employee.png)
 5. Admin show employee status if the user is an employee
-    - [admin-employee-status-screenshot](example/admin-employee-status.png)
+    ![admin-employee-status-screenshot](example/admin-employee-status.png)
 
