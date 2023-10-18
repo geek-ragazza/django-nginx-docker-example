@@ -34,6 +34,19 @@ To run the entire service locally, follow these steps:
 - Home Page: 
     - After logging in, the home page displays the user's name and, if the user is an employee, their employee status.
 - Navbar: 
-    - The navbar provides options to log out and, on the login page, a "Register" button to create a new account.
+    - The navbar provides options to log out and, on the login page, a "Sign Up" button to create a new account.
 - Admin Panel: 
     - Accessible at /admin, it allows the admin to manage users and employees, including setting the employee status.
+
+# Example Screenshots
+1. Login
+    - [login-screenshot](example/login.png)
+2. Register
+    - [register-screenshot](example/register.png)
+3. Home Page:
+    - [login-screenshot](example/home-page-employee-status.png)
+4. Admin Employee
+    - [admin-employee](example/admin-employee.png)
+5. Admin show employee status if the user is an employee
+    - [admin-employee-status-screenshot](example/admin-employee-status.png)
+
