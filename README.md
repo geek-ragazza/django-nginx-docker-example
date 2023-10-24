@@ -30,23 +30,29 @@ To run the entire service locally, follow these steps:
 # Application Features
 
 - User Registration/Login/Logout: 
-    - Users can register with a username, password, and confirm password. Optionally, they can provide their employee status and name for a more detailed registration process.
+    - Users can register with a username, password, and confirm password. Optionally, they can provide their employee name.
 - Home Page: 
-    - After logging in, the home page displays the user's name and, if the user is an employee, their employee status.
+    - After logging in, the home page displays the user's name username.
 - Navbar: 
     - The navbar provides options to log out and, on the login page, a "Sign Up" button to create a new account.
 - Admin Panel: 
-    - Accessible at /admin, it allows the admin to manage users and employees, including setting the employee status.
+    - Accessible at /admin, it allows the admin to manage users and employees
+
+# Custom Admin Panel Message
+
+When a user logs in, they will see a custom message in the admin panel based on their roles:
+
+- **Welcome, Employee**: If the user has the "is_employee" permission. (Example: Username: vicky, Password: Initium1022)
+
+- **You are not an employee**: If the user does not have the "is_employee" permission. (Example: Username: jose, Password: Initium1022, or sign up for a new account)
 
 # Example Screenshots
 1. Login
     ![login-screenshot](example/login.png)
 2. Register
     ![register-screenshot](example/register.png)
-3. Home Page:
-    ![login-screenshot](example/home-page-employee-status.png)
-4. Admin Employee
-    ![admin-employee](example/admin-employee.png)
-5. Admin show employee status if the user is an employee
-    ![admin-employee-status-screenshot](example/admin-employee-status.png)
+3. Admin Employee
+    ![admin-employee](example/employee.png)
+5. Admin is not employee
+    ![admin-employee-status-screenshot](example/not_employee.png)
 

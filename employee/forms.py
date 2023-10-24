@@ -12,7 +12,7 @@ class RegistrationEmployeeForm(forms.ModelForm):
 
     class Meta:
         model = Employee
-        fields = ("name", "status")
+        fields = ("name",)
 
     def clean(self):
         cleaned_data = super().clean()
@@ -23,7 +23,7 @@ class RegistrationEmployeeForm(forms.ModelForm):
             raise ValidationError("Passwords do not match.")
 
         return cleaned_data
-    
+
     def save(self, commit=True):
         user = User.objects.create_user(
             username=self.cleaned_data["username"],
